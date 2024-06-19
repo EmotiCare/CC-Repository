@@ -28,13 +28,19 @@
 ## Endpoints
 ### Authentication
 **POST** ```http://34.101.52.60:3000/auth/register```
+
 Endpoint for user registration
+![auth-regist](https://github.com/EmotiCare/CC-Repository/assets/89828723/2f4d618c-0587-433c-971c-104225022308)
 
 **POST** ```http://34.101.52.60:3000/auth/login``` 
+
 Endpoint for user login
+![auth-login](https://github.com/EmotiCare/CC-Repository/assets/89828723/67744c7e-957d-4bac-a68c-013ed8ba5f42)
 
 **POST** ```http://34.101.52.60:3000/auth/logout``` 
+
 Endpoint for user logout
+![auth-logout](https://github.com/EmotiCare/CC-Repository/assets/89828723/112e2d59-fc05-4e5f-954c-3fa6e3086474)
 
 **GET** ```http://34.101.52.60:3000/user/:id``` 
 Endpoint to retrieve user details by ID
