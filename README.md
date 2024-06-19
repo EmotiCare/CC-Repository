@@ -5,6 +5,8 @@
 2. [Endpoints](#endpoint-emoticare)
    - [Authentication](#endpoint-authentication)
    - [Mood](#endpoint-mood)
+   - [Photo](#photo-user)
+   - [Predict](#predict-emoticare)
 
 ## Tools & Requirements
 ### Tools
@@ -41,3 +43,10 @@
 **GET** ```http://34.101.52.60:3000/mood/yyyy-mm-dd```
 
 **GET** ```http://34.101.52.60:3000/mood/get/all ```
+
+### Photo
+**POST** ```http://34.101.52.60:3000/photo/upload```
+**GET** ```http://34.101.52.60:3000/photo/get```
+
+### Predict
+**POST** ```http://34.101.52.60:5000/predict```
