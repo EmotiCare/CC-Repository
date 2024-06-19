@@ -66,6 +66,7 @@ Endpoint to retrieve the mood entry for a specific date (yyyy-mm-dd)
 **GET** ```http://34.101.52.60:3000/mood/get/all ```
 
 Endpoint to retrieve all mood entries
+
 ![get-mood-all](https://github.com/EmotiCare/CC-Repository/assets/89828723/b0e0480c-9115-4bc5-891b-abe537fb9e3b)
 
 ### Photo
